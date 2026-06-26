@@ -5,7 +5,7 @@ import google.generativeai as genai
 # 1. CONFIGURE YOUR GEMINI API KEY
 # ==========================================
 # Replace the text below with the secret API Key you grabbed from Google AI Studio
-API_KEY = "AQ.Ab8RN6LZjZwpWvPDGLVjrIRh4lncYTOaibuZoV8l1qwB-1CCtA" 
+API_KEY = st.secrets["GOOGLE_API_KEY"]
 genai.configure(api_key=API_KEY)
 
 # ==========================================
